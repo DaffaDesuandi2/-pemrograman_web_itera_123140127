@@ -33,13 +33,10 @@ Proyek ini dibuat menggunakan JavaScript modern dengan fitur **ES6+** seperti `c
 
 ---
 
-## 🖼️ Screenshot Aplikasi
-Tampilan utama aplikasi:
-
-![Screenshot Dashboard](./screenshot.png)
-
-> 💡 **Catatan:** Ganti `screenshot.png` dengan nama file tangkapan layar aplikasi kamu (letakkan di folder yang sama dengan README).
-
----
-
 ## 📂 Struktur Folder
+
+Folder
+  index.html
+  script.js
+  style.css
+  
