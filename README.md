@@ -44,8 +44,8 @@ Jika Anda ingin menjalankan proyek ini di komputer lokal Anda, ikuti langkah-lan
 Berikut adalah screenshot dari tampilan aplikasi:
 
 **Halaman Beranda**
-![Tampilan Halaman Beranda](./screenshot/beranda.png)
+![Tampilan Halaman Beranda](muhammaddaffansyahdesuandi_123140127_pertemuan3/screenshot/beranda2.png)
 
 **Halaman beranda**
-![Tampilan Halaman Sesudah diisi buku](./screenshot/beranda2.png)
+![Tampilan Halaman Sesudah diisi buku](muhammaddaffansyahdesuandi_123140127_pertemuan3/screenshot/beranda2.png)
   
