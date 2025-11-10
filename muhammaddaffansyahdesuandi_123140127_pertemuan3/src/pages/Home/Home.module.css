@@ -1,0 +1,43 @@
+.homeContainer{
+    color: black;
+    display: flex;
+   
+}
+.sidebar{
+    flex-shrink: 0; 
+    width: 250px; 
+    margin: 0; 
+    padding: 20px 15px 0px 10px;
+    background-color: antiquewhite;
+    min-height: 100vh;
+   
+}
+
+.header{
+    text-align: center;
+    margin: 50px px 0px 0px;
+}
+.toggleFormButton{
+    border-radius: 20px;
+    margin: 20px 10px;
+    padding: 15px;
+    font-size: 20px;
+    font-weight: 2000;
+    cursor: pointer;
+}
+.main{
+    margin: 0px; 
+    padding: 0px 20px 0px 20px; 
+    flex-grow: 1;
+}
+
+.openButton {
+    font-weight: 900;
+}
+
+.closeButton {
+    font-weight: 900; 
+}
+.formSection{
+    padding-bottom: 20px;
+}

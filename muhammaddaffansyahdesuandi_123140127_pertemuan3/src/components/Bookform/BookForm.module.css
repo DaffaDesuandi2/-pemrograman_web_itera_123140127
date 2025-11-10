@@ -1,0 +1,32 @@
+.form {
+    display: flex; 
+    flex-direction: column;
+    gap: 20px;
+}
+.label {
+    display: flex; 
+    flex-direction: row; 
+    align-items: center; 
+    gap: 10px; 
+}
+.label input,
+.label select {
+    padding: 10px;
+    border: 1px solid #000000;
+    border-radius: 10px;
+}
+
+.label input,
+.label select {
+    flex-grow: 1; 
+}
+
+.label span { 
+    font-weight: bold;
+    min-width: 60px; 
+}
+.submitButton{
+    padding: 20px;
+    border-radius: 20px;
+    cursor: pointer;
+}
