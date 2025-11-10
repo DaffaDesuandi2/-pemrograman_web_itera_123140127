@@ -4,12 +4,6 @@ Aplikasi Single Page Application (SPA) sederhana untuk mengelola koleksi buku pr
 
 ---
 
-## 📖 Deskripsi Singkat
-Aplikasi ini berfungsi sebagai **pengelola daftar tugas pribadi (To-Do List)**.  
-Data akan disimpan di browser agar tidak hilang saat halaman di-refresh.  
-Proyek ini dibuat menggunakan JavaScript modern dengan fitur **ES6+** seperti `class`, `arrow function`, `template literals`, dan `async/await`.
-
----
 
 ## ⚙️ Fitur Aplikasi
 ✅ Penyimpanan Lokal
@@ -19,22 +13,39 @@ Proyek ini dibuat menggunakan JavaScript modern dengan fitur **ES6+** seperti `c
 ✅ Responsive Layout 
 
 ---
+Jika Anda ingin menjalankan proyek ini di komputer lokal Anda, ikuti langkah-langkah berikut:
 
-## 💻 Instalasi dan Menjalankan
-| Fitur | Contoh Implementasi |
+1.  **Clone repository ini:**
+    ```bash
+     git clone [URL_REPOSITORY_ANDA] cd my-book-collection-app
+    ```
+
+2.  **Instal Dependensi:**
+    ```bash
+    npm install #atau yarn install
+    ```
+
+3.  **Menjalankan Aplikasi:**
+    ```bash
+    npm start # atau yarn start
+    ```
+
+## 🔧 Teknologi React yang Digunakan
+| Fitur | penjelasan |
 |-------|----------------------|
-| **let & const** | Digunakan untuk deklarasi variabel dan objek (`const taskManager = new TaskManager();`) |
-| **Arrow Function** | `saveToLocalStorage = () => {}`, `addTask = (text) => {}`, `deleteTask = (id) => {}` |
-| **Template Literals** | `taskList.innerHTML = taskManager.tasks.map(task => \`<li>...</li>\`).join('');` |
-| **Async/Await** | Pada fungsi `editTask()` dan `deleteTask()` yang menggunakan `await new Promise(...)` |
-| **Classes** | `class Task` dan `class TaskManager` digunakan untuk mengatur data dan logika aplikasi |
+| **Hooks (useState, useEffect)** | Digunakan untuk mengelola state komponen lokal (misalnya, isFormOpen) dan efek samping (misalnya, hook useLocalStorage). |
+| **React Context API** | Manajemen state global untuk data buku (BookContext). Ini memungkinkan komponen seperti BookList, BookForm, dan BookFilter mengakses dan mengubah daftar buku (books, filteredBooks) tanpa prop drilling. |
+| **Custom Hooks (useLocalStorage, useBooks, useBookStats)s** | Logika yang kompleks (interaksi dengan Local Storage, pengambilan data context, dan perhitungan statistik) dienkapsulasi menjadi custom hooks untuk modularitas dan reusabilitas. |
+| **Conditional Rendering** | Digunakan di komponen Home.jsx untuk menampilkan atau menyembunyikan BookForm (mode Tambah atau Edit) berdasarkan state (isFormOpen atau editingBook). |
+| **CSS Modules** | Digunakan untuk styling setiap komponen (misalnya, Home.module.css) untuk mencegah konflik class name secara global. |
 
 ---
 
-## 📂 Struktur Folder
+Berikut adalah screenshot dari tampilan aplikasi:
 
-Folder
-  index.html
-  script.js
-  style.css
+**Halaman Beranda**
+![Tampilan Halaman Beranda](./screenshot/beranda.png)
+
+**Halaman beranda**
+![Tampilan Halaman Sesudah diisi buku](./screenshot/beranda2.png)
   
