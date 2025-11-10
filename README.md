@@ -1,7 +1,6 @@
-# 🧭 Personal Dashboard - Daftar Tugas
+# 📚 My Book Collection App
 
-Aplikasi **Personal Dashboard sederhana** untuk mengelola daftar tugas harian.  
-Pengguna dapat menambah, mengedit, dan menghapus tugas secara interaktif, dan semua data akan tersimpan secara **lokal** menggunakan `localStorage`.
+Aplikasi Single Page Application (SPA) sederhana untuk mengelola koleksi buku pribadi. Pengguna dapat menambah, melihat, memfilter, dan mengedit status buku (Mau Beli, Dimiliki, Sedang Dibaca, Selesai Dibaca).
 
 ---
 
@@ -13,16 +12,15 @@ Proyek ini dibuat menggunakan JavaScript modern dengan fitur **ES6+** seperti `c
 ---
 
 ## ⚙️ Fitur Aplikasi
-✅ Tambah tugas baru  
-✅ Edit tugas yang sudah ada  
-✅ Hapus tugas dari daftar  
-✅ Data otomatis tersimpan di **localStorage**  
-✅ Tampilan sederhana dan mudah digunakan  
-✅ Menggunakan fitur modern ES6+  
+✅ Penyimpanan Lokal
+✅ CRUD Sederhana  
+✅ Filter Status  
+✅ Statistik Real-time 
+✅ Responsive Layout 
 
 ---
 
-## 🧩 Fitur ES6+ yang Diimplementasikan
+## 💻 Instalasi dan Menjalankan
 | Fitur | Contoh Implementasi |
 |-------|----------------------|
 | **let & const** | Digunakan untuk deklarasi variabel dan objek (`const taskManager = new TaskManager();`) |
